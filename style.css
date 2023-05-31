@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    color: white;
+    Font-size: 15px;
+    width: 100%;
+    align-items: center;
+    padding: 120px 250px;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 20px 30px;
+}
+.orange p{
+    font-weight: 700;
+}
+.cyan p{
+    font-weight: 700;
+}
+.dark p{
+    font-weight: 700;
+}
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 20px 30px;
+}
+.dark{
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 20px 30px;
+}
+.orange button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+}
+.cyan button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+}
+.dark button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+}
+.hello{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.orange button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: wheat;
+}
+.cyan button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: wheat;
+}
+.dark button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: wheat;
+}
+
+@media screen and (max-width:950px) {
+    main{
+        flex-direction: column;
+        padding:20px 5px;
+    }
+    .orange{
+        padding:20px 40px;
+        width: 70%;
+    }
+    .cyan{
+        padding:20px 40px;
+        width: 70%;
+    }
+    .dark{
+        padding:20px 40px;
+        width: 70%;
+    }
+}
