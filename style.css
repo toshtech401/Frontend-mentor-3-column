@@ -75,20 +75,13 @@ main{
     flex-direction: column;
     gap: 20px;
 }
-.orange button:hover{
-    background-color: transparent;
-    border: 1px solid white;
-    color: wheat;
-}
-.cyan button:hover{
-    background-color: transparent;
-    border: 1px solid white;
-    color: wheat;
-}
+.orange button:hover, 
+.cyan button:hover, 
 .dark button:hover{
     background-color: transparent;
     border: 1px solid white;
     color: wheat;
+    cursor: pointer;
 }
 
 @media screen and (max-width:950px) {
